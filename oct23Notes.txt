@@ -1,0 +1,106 @@
+90 second personal pitch
+——————————
+Studied computational linguistics in college
+
+Was always interested in how existence could be represented with logic
+
+Became fascinated with collecting data to make inferences about thought-patterns. I collected data on several big-data corpora to find a method for using sentiment analysis to detect irony.
+
+
+Have done an artistic copy of stack-overflow using text generated from literature to represent usernames, questions, and answers.
+
+Worked on a team to develop a MERN stack cooking app that suggests what to cook just what you have in your fridge.
+
+
+At your company I will hit the ground running to ship out new procedures to satisfy a diverse user base and to enhance / update your current technologies.
+
+
+_________________________________________
+Ring buffer is a data structure that uses a start-position tracker
+
+Metal Bands
+
+Municipal waste
+Exodus
+Dirty Rotten Imbeciles (DRI)
+
+Suicidal Tendencies
+
+
+
+_______________________
+bigO
+Infinite geometric series:
+n^2 because n(n+1) / 2
+
+# a triangle
+(0..n).each do |i| 	(0..i).each do |j|
+		p i + j
+	end
+end
+
+
+# assume this will end like bsearch
+# logarithmic time complexity because the size of the operand decreases in proportion to it’s size
+# O(nlogn)
+while n > 0
+	n /= 2
+end
+
+
+Merge-sort is also O(nlogn)
+
+# linear time-complexity On
+# On space complexity
+def example6(n)
+	return 1 if n == 0
+	example6(n - 1)
+end
+
+# 2**n
+def example8(n)
+	return 1 if n == 0
+	example8(n - 1) * example8(n - 1)
+end
+
+# for this  just guess the upper and lower bound
+# don’t do the math
+# lower bound — best case for this is O(1)
+# upper bound — worst case is 2**n + n
+def example9(n)
+	return 1 if n == 0
+	n.times { p n } if n.odd?
+	example9(n - 1) * example9(n - 1)
+end
+
+
+
+# O(n^2log(n))
+# 10,100,1000,10000 because t is increasing by powers of 10
+def example10(n)
+	t = 0
+	n.times do
+		n.times do
+			t.to_s.split(‘’).each { |el| p el }
+			t += 1
+		end
+	end
+	p t
+end
+
+
+# factorial
+# pretend there is a base case
+def example11(n)
+	p n
+	n.times do
+		example11(n - 1)
+	end
+end
+
+_____________ Behavioral interview
+1. Restate question
+2. Clarifying questions?
+3.  Understand — example I/O
+4. Plan - brainstorm, test, analyze, write pseudocode, write in English, consider alternatives
+5.
