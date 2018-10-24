@@ -103,4 +103,82 @@ _____________ Behavioral interview
 2. Clarifying questions?
 3.  Understand — example I/O
 4. Plan - brainstorm, test, analyze, write pseudocode, write in English, consider alternatives
-5.
+
+
+
+Trivia
+  js
+    - event loop, heaps (single threaded and concurrent)
+    - what happens when you hit www.google.com and hit enter
+    - where is ip address
+    - 4 types of positions in css
+
+  rails
+    -
+  ruby
+    -
+  sql
+    -
+  html/css
+    -
+  react/redux
+    -
+  web architecture
+    -
+
+How to succeed at trivia
+  - take moments to think
+  - structure responses
+  - make thesis statement
+  - use example to illustrate idea
+    - small example and show benefits of tool/concept
+    - example of settimeout function and when it is added to event queue
+
+Practical Coding Challenges
+  - build something
+  - make calls to an api
+  - debug
+  - refactor
+  - build tic tac toe in react
+  - do JS30
+  - test and debug as you go
+
+How to Study
+  - keep coding don't let skills get stale
+  - send 2.5 hours working on projects or practical challenges per day
+  - focus on deepening understanding as you go
+  - Javascript 30
+  - Hackathons
+  - https://www.eventbrite.com/d/ca--san-francisco/hackathon/
+
+Questions
+  - How would you design a url shortener
+  - design Twitter
+  - How does a website scale
+
+
+After the interview
+  - debrief
+    - what did you struggle with
+    - what topics came up
+  - Interview DB for app-academy
+  - get feedback from interviewer if you can
+  - don't take rejection personally
+  - send nice email after interview thanking the recruiter/interviewer for the opportunity
+
+
+Aim to get more rejections than anybody and keep applying to jobs because this is the best way to practice
+
+
+Tomorrow: group work with practice problems, one person is interviewer other is interviewee
+  - explain a problem clearly
+  - add parameters if necessary
+  - don't give hints
+  - don't avoid or soften criticisms
+
+  - Dynamic Array assessment tomorrow morning
+  - Pairboarding starts tomorrow
+  - frontend testing workshop tomorrow @ noon
+  reading email will be sent out in the evenings
+    - tonight watch heaps of videos(~1 hr)
+  - Distributed Systems Lectures W13
