@@ -1,0 +1,19 @@
+binary search tree
+    - at any time left < top, left < right and top-right < bottom
+
+
+    anything on a left branch cannot be greater than the topmost root node
+        - but anything on the right branch of a root's left has to be greater than it's parent
+
+    anything on the right branch of a root has to be greater than the root and greter than it's parent
+
+   EXAMPLE
+     17
+   /    \
+  15     22
+  / \      \
+ 10  16     47
+ /\    \
+9  12  16.5
+        /
+       16.25
