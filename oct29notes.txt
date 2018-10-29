@@ -17,3 +17,17 @@ binary search tree
 9  12  16.5
         /
        16.25
+
+
+
+- Other types of searchtree datastructures include: RedBlack trees
+
+NB binary search trees are only good bigO if the tree is balanced
+
+
+- if a tree is balanced -- the depth of left and right at the root will differ by at most 1
+
+___
+Traversals (inorder preorder, postorder)
+    - in order traversals
+        - left to right, top to bottom
