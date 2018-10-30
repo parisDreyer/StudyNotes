@@ -1,0 +1,57 @@
+DEV OPS
+-some say it's a workflow some say it's a mindset
+-multiple teams on same product
+-a a solution to an old software-dev problem -- 
+    - specs ()
+    - development (write code based on specs)
+    - QA (quality assurance engineers -- end-to-end integration)
+    - release team: 
+    - OPS team
+        - manage infrastructure
+        - monitor
+        - responsible for infrastructure and production bugs
+- downsides to the above pipeline
+    - if something is broken, it stays broken for a long time
+    - collaboration is not seamless
+    -
+
+DEV OPS priorities AUTOMATED TESTING
+    - QA, Release, and Operations, can be automated
+    - Canary Releases
+        - if error rates for a new release are above a certain threshold then the new release is automatically rolled back
+
+
+CI-CD skills/knowledge
+    - "Continuous Integration and Continuous Delivery"
+    - An important piece of devops
+    - one of the things people implement first
+    - The practice of continuous merge/integration of code into the main code repository backed by builds and test cases
+
+
+
+
+Example CI-CD Workflow
+
+
+Merge Conflicts
+    - not only tedious but error prone
+    - CI CD workflow helps for massive painful merges
+INSTEAD of continually merging into a master branch
+
+
+CI/CD tool: CircleCI
+    - give it a github reop
+    - CircleCI sets up webhooks on your github repo to do tests and builds
+    - uses yml files
+    - has jobs -- a series of steps necessary to get the project running (e.g. setup docker)
+Master branch and Staging branch
+    - checkout from staging branch then merge staging to master when doing a new version
+
+
+Docker -- one of those things that will grow in popularity
+    - more and more companies are doing it
+    - Docker is a container service
+        - a docker image is a snapshot of the working environment for the project
+    - trying to solve "it worked on my machine but idk why it doesn't work on yours
+    - uses yml files
+
