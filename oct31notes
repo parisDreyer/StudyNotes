@@ -1,0 +1,22 @@
+// based on answer found on
+// https://stackoverflow.com/questions/21874577/find-squares-rectangles-in-canvas
+
+// [An outline of how to do Auto - clipping of the rectangles ]
+
+// First, size the canvas to the image size and drawImage the image on the canvas.
+
+// Then for each rectangle in the canvas image:
+
+//     Use getImageData to get an array of every pixel color on your canvas image.
+// Start scanning the colors from top - left.
+// When you hit a non - background color you've hit a rectangle's side.
+// (You must input the background color or assume the top - left pixel defines the background color)
+// Walk the rectangle in a clockwise direction until you are back to the starting spot.
+// ("Walk" means travel vertically / horizontally following the border pixel color).
+//     You've got the bounding area of the rectangle.
+//         (You need to bound a slightly larger area because of anti - aliased pixels).
+// Create a temporary canvas and size it to the discovered bounding box size.
+// Use context.drawImage's clipping parameters to copy the bounded rect from the original canvas to the temporary canvas.
+// Use canvas.toDataURL to save the temp canvas as an image.
+// Clear the rectangles pixels off the canvas using context.clearRect.
+// Begin the process again to find the next rectangle.
