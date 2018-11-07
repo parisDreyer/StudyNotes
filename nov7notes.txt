@@ -1,0 +1,54 @@
+money
+income and benefits
+  - salary
+    - see the bigger picture
+
+  - first offer
+
+  - share offer rates with each other to get a sense for what we're worth
+
+  -vesting
+    - incentive to stay for your increase in value
+    - means you get another hundred shares or whatever after you've been at the company for a while
+
+  - 401k
+    -free money if there's matching
+    - lowers taxable income
+    - lower tax rate when withdrawn
+      - because your income is lower so your tax rate is lower
+  - Roth IRA
+    - you are the only person contributing to it
+
+  value of an option
+    - stock options isn't guaranteed cash they actually could cost you money
+    - hire an accountant -- they are complicated
+    - if you leave a company or get fired you only have 90 days to purchase your options
+    - if you time exercising options incorrectly (sell for cash before owe taxes) you could end up owing 1000000 dollars
+    - RSU
+      - restricted stock units (basically free stock)
+      - still subject to vesting
+        -watch for that vesting period
+
+
+Recruiter Math
+  - the offer
+    - 100k base
+    - 100k equity
+    - seen as 500k in projection
+    - IPO
+      - no! ask about vesting schedule
+      - because taxes, options, and vesting limitations that could cost tons of money
+
+After taxes and expenses what kind of money are you looking at?
+  - 60%
+
+What to invest in
+  - Vanguard account
+    - buy a: Target Fund
+  - mutual funds
+
+
+______
+  David Hamme
+  uber-eats
+  davidh@uber.com
