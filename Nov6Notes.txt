@@ -1,0 +1,98 @@
+Javascript Trivia
+js
+[] + {} = [object Object]
+[] + [] = ""
+{} + [] = 0
+{} + {} = NaN
+
+
+Asynchronicity in JS
+- weakly typed 'type coercion'
+- prototype based
+- single threaded
+- concurrent
+- non-blocking
+  - exceptions :alert,
+- dynamic
+
+js engine and runtime environment
+  js engine
+    - memory heap
+    - callstack
+    - event loop
+
+  browser
+    -web apis
+    - callback queue
+
+
+Asynchronicity
+  a callback is a function that is executed later
+
+
+
+Promise
+  - an object that is used for handling async behavior
+
+  let p1 = new Promise( function(resolve, reject) {
+    console.log("start of "promise");
+    console.log("passing arg to .then");
+    resolve("arg1");
+  });
+  p1.then(a => {console.log(".then invoked arg: ", a); });
+  console.log("after then");
+
+hoisting
+  - don't use var because it gets hoisted to the top of its scope for the script it is written in
+
+ Primitives in JS
+  - an object or method that has no properties
+    - string
+      - there is also a String class that is not a primitive and
+        that uses the string primitive as a property
+    - number
+    - boolean
+    - null
+    - undefined
+    - symbol
+
+implicit returns in js
+  - single line arrow functions
+  - Functions invoked with the new keyword
+  - async functions(implicitly return a promise)
+
+7 falsey values in js
+  - false
+  - null
+  - undefined
+  - 0
+  - NaN
+  - ""
+  -document.all
+
+
+expressions in js are evaluated right to left
+
+
+Pass By Reference Pass By Value
+  - pass by reference for objects
+  - pass by value for primitives
+
+
+the document is the dom
+
+window.document === document
+
+
+document.onload fires after window.onload
+
+
+document.querySelector returns a node list
+  -some methods available on a node list not available on an html collection
+document.getElement[s] returns an object or an array
+  - html collection older than nodelist --maybe
+  - getElements is faster
+
+
+A way to do serverless form data!
+// https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server
