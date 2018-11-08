@@ -128,6 +128,8 @@ negotiate for
     - roles, responsibilities, upward mobility, mentorship
     - misc: parking, lunches, gym memberships, etc
     - vacation
+    - RSUs
+    - Stock options
 
 - get a financial planner
 
@@ -138,3 +140,7 @@ negotiate for
 - don't negotiate over phone
 - talk with your coach
 
+
+
+- Once you get hired - take one or two weeks off to refresh before walking onto the job
+    - if they need somebody tuesday that's up to you
