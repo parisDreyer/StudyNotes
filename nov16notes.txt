@@ -1,0 +1,30 @@
+Daily checklist for jobsearch
+
+1 networking event per week
+get coffee
+
+-study systems architecture
+
+practice algorithm challenges
+
+linkedin messaging super hard
+
+
+use Anki -- a flashcard tool
+
+do one leetcode or hackerrank problem per day
+
+do pair-boarding
+
+sign up for PRAMP
+
+Add a set of subdirectories to this repo with the following folders
+1. algorithms and data structures
+2. web architecture
+3. javascript
+4. miscellaneous
+5. practice
+
+
+Look at the Jobsearch study guide on the appacademy curriculum
+
