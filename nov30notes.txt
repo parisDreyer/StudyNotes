@@ -1,0 +1,9 @@
+notes on jwt security:
+https://medium.com/@nodepractices/were-under-attack-23-node-js-security-best-practices-e33c146cb87d
+
+
+node password validator:
+https://www.npmjs.com/package/password-validator
+
+node bcrypt:
+https://www.abeautifulsite.net/hashing-passwords-with-nodejs-and-bcrypt
