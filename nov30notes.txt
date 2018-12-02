@@ -11,3 +11,16 @@ https://www.abeautifulsite.net/hashing-passwords-with-nodejs-and-bcrypt
 
 good note on database security
 https://security.stackexchange.com/questions/172297/sanitizing-input-for-parameterized-queries
+
+
+sqlite "no limits" space
+https://www.sqlite.org/limits.html
+
+    Maximum Number Of Rows In A Table
+
+    The theoretical maximum number of rows in a table is 264 
+    (18446744073709551616 or about 1.8e+19). This limit is unreachable 
+    since the maximum database size of 140 terabytes will be reached first. 
+    A 140 terabytes database can hold no more than approximately 1e+13 rows, 
+    and then only if there are no indices and if each row contains very little 
+    data.
