@@ -7,3 +7,7 @@ https://www.npmjs.com/package/password-validator
 
 node bcrypt:
 https://www.abeautifulsite.net/hashing-passwords-with-nodejs-and-bcrypt
+
+
+good note on database security
+https://security.stackexchange.com/questions/172297/sanitizing-input-for-parameterized-queries
