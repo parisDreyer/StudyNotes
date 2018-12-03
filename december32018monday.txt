@@ -1,0 +1,22 @@
+https://docs.microsoft.com/en-us/azure/bot-service/nodejs/bot-builder-nodejs-dialog-waterfall?view=azure-bot-service-3.0
+
+- some notes on ms azure luis model chatbot
+
+
+
+Below is an explanation of the "Waterfall Method" as implemented
+by MS Azure's LUIS Chatbot framework:
+______________________________________
+the luis chatbot is an intent/sentiment/language recognizer
+    - you pass in user text input and the LUIS recogniser responds with a
+    machine-learning model likelihood that that text belongs to a certain
+    developer assigned intent. It seems okay for simple cases though I would want to customize it
+    heavily for specific requirements
+    - You pass in the 'Intents' as text parameters that the luis recognizer
+    matches user text to.
+        - e.g. if you have made the intents( "RAINING_PROMPT" and "WALKING_PROMPT")
+        one of those intents is decided with a probability score by the luis recognizer
+    
+    With the intent decided then the app advances to functions that are
+    developer defined responses for a specific intent
+
