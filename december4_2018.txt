@@ -60,7 +60,6 @@ string longestPalindrome(string s) {
 
 
 
-
 // validation data
 I am using the below two data resources to validate user input for inclusion in the datasets to ensure that users
 only input real countries and cities as countries and cities that they belong to.
@@ -72,3 +71,12 @@ https://github.com/zeke/all-the-cities
 
 abreviation of every country in the world
 https://www.realifewebdesigns.com/web-marketing/abbreviations-countries.asp
+
+
+
+
+
+
+
+// notes on security in node
+https://hackernoon.com/your-node-js-authentication-tutorial-is-wrong-f1a3bf831a46

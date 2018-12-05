@@ -20,3 +20,7 @@
 // Use canvas.toDataURL to save the temp canvas as an image.
 // Clear the rectangles pixels off the canvas using context.clearRect.
 // Begin the process again to find the next rectangle.
+
+
+
+
