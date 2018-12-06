@@ -80,3 +80,5 @@ https://www.realifewebdesigns.com/web-marketing/abbreviations-countries.asp
 
 // notes on security in node
 https://hackernoon.com/your-node-js-authentication-tutorial-is-wrong-f1a3bf831a46
+
+https://scotch.io/bar-talk/why-jwts-suck-as-session-tokens
