@@ -1,0 +1,28 @@
+! in swift
+
+
+https://stackoverflow.com/questions/24018327/what-does-an-exclamation-mark-mean-in-the-swift-language
+
+you wrap optional variables by declaring them with ?
+e.g:
+----------------------
+var john: Person?
+----------------------
+
+then 
+----------------------
+john!
+----------------------
+the exclamation mark unwraps the value into either nil or a person object
+whereas if you didn't unwrap the value then you would have an optional variable object
+
+
+https://codewithchris.com/xcode-errors/
+https://naveenr.net/beginning-container-views-in-ios/
+
+
+
+__
+NB
+to create associations between between .xib elements you ctrl click + drag the element you want to associate with the other element
+This ctrl++click&drag is how to use the UI to align one element relative to a parent element.
