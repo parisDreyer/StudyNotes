@@ -1,0 +1,12 @@
+
+Travelling Salesman Problem Ruby Solution:
+https://github.com/rellermeyer/99tsp/blob/master/ruby/greedy/tsp.rb
+
+
+
+Dijkstra's Algorithm
+    pseudocode
+        https://en.wikipedia.org/wiki/Dijkstra's_algorithm
+    Ruby Solution
+        https://gist.github.com/jithinabraham/63d34bdf1c94a01d6e91864d4dc583f4
+
