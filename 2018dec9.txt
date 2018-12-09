@@ -1,0 +1,8 @@
+arcane js trivia:
+https://blog.usejournal.com/little-known-features-of-javascript-901665291387
+
+    - with keyword
+        - adds all properties of an object to a with closure scope
+    - void() operator
+    - put a + in front of a string to auto convert that string to a number
+        - even converts a date to a timestamp
