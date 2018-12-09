@@ -22,6 +22,10 @@ some flags are:
     NSLocationWhenInUseUsageDescription
     NSLocationAlwaysUsageDescription
 
+    // updates:
+    NSLocationAlwaysAndWhenInUseUsageDescription
+     NSLocationWhenInUseUsageDescription
+
     ^put those above flags in the info.plist for the project
     -- put as the description a reason that you need those privacy settings
 
