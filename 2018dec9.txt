@@ -6,3 +6,36 @@ https://blog.usejournal.com/little-known-features-of-javascript-901665291387
     - void() operator
     - put a + in front of a string to auto convert that string to a number
         - even converts a date to a timestamp
+    ~ tilda operator does some bitwise not evaluation
+
+    - can declare closures with labels then colons,
+        closureLabel: 
+        for(let i =0;; i < 3; i++){ // labeled loop
+            // inner scope
+        }
+        // like js version of goto
+
+
+
+Since iOS 8 have to describe why using location
+some flags are:
+    NSLocationWhenInUseUsageDescription
+    NSLocationAlwaysUsageDescription
+
+    ^put those above flags in the info.plist for the project
+    -- put as the description a reason that you need those privacy settings
+
+
+
+target membership xcode
+
+https://stackoverflow.com/questions/18114413/xcode-which-files-need-to-be-members-of-my-target-target-membership
+Header files are what other source files reference so that they know what the interface for a class is. They aren't needed as part of the binary itself, so they don't need to be included in the final product.
+
+Info.plist is a special case as it defines the application bundle itself, so it is processed separately.
+
+Generally speaking, you want files to be members of your target when they:
+
+Form part of the executable (e.g. implementation (.m) files or libraries), or
+Are included as files in the application bundle (e.g. images).
+You don't need files to be members of your target if they are only used as part of the build process and aren't needed at runtime. Typically this is any type of header file, including precompiled headers (.pch).
