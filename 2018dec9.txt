@@ -65,3 +65,8 @@ react native maps https://github.com/react-native-community/react-native-maps/bl
 
 haversine distance between coordinates:
 https://www.npmjs.com/package/haversine
+
+
+
+ontouch place new coordinate on map:
+https://github.com/browniefed/examples/blob/maps/custom_marker/maps/index.ios.js
