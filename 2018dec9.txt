@@ -61,3 +61,7 @@ https://www.raywenderlich.com/548-mapkit-tutorial-getting-started
 react wrapper for applemaps and google maps:
 react native maps https://github.com/react-native-community/react-native-maps/blob/master/docs/installation.md
 
+
+
+haversine distance between coordinates:
+https://www.npmjs.com/package/haversine
