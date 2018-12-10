@@ -54,3 +54,10 @@ You don't need files to be members of your target if they are only used as part 
 
 good map tutorial for iOS:
 https://www.raywenderlich.com/548-mapkit-tutorial-getting-started
+
+
+
+
+react wrapper for applemaps and google maps:
+react native maps https://github.com/react-native-community/react-native-maps/blob/master/docs/installation.md
+
