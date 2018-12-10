@@ -69,4 +69,7 @@ https://www.npmjs.com/package/haversine
 
 
 ontouch place new coordinate on map:
-https://github.com/browniefed/examples/blob/maps/custom_marker/maps/index.ios.js
+    explanation:
+        https://codedaily.io/screencasts/14/Create-a-Custom-Map-Marker-with-React-Native-Maps
+    code:
+        https://github.com/browniefed/examples/blob/maps/custom_marker/maps/index.ios.js
