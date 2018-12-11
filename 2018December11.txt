@@ -6,3 +6,55 @@ January 18, 2017
 25 Comments
 
 https://scotch.io/tutorials/understanding-hoisting-in-javascript
+
+
+
+Groups for networking
+Linkedin
+Neighbors
+Family
+AppAcademy
+Friends
+Meetup
+
+- just say --"i finished app academy and whew that was tough and now I'm looking for work"
+- 
+
+HI <name>, hope you’re well. I see you’re now at <company>. 
+I’d love to know more about the company as I’m a <student at AA> and I’m looking for a 
+Frontend Developer position. Can we get on a call next week to discuss your hiring needs?
+
+
+
+Sample letter to send to people in your social network:
+
+Hi (name),
+
+Hope you're well and getting ready for the holidays. 
+If you recall, we met at (place and time) and I thought to reconnect with you. 
+I'm currently searching for work as a software developer, and I'm researching companies. I see you are a developer at (company).
+
+I'd love the chance to learn more about why you chose this particular company, what the culture is like there, 
+and your own journey to becoming a developer.
+Your insight will be extremely valuable for me.
+
+Would you be open to a 15-20 minute call or google hangout before the holidays? I promise not to take up much of your time, 
+as I'm sure you're busy.
+
+Thank you so much and look forward to hearing from you.
+
+_________________________________
+when people respond, say: "thank you for taking the time"
+1. why did you decide to work there what did you like about it?
+2 what is the team like and how do you contribute?
+3. I see you were (check past work history), what made you decide to switch companies / professions?
+4. what advice would you give someone new to the field like me?
+
+- Thanks so much for your time, you've been very helpful. I was wondering, if in the chance i see a 
+position that I'd be a fit for at (company), would you be an open to taking a look at my resume? 
+Your feedback would be very valuable.
+___________________________________
+
+
+
+
