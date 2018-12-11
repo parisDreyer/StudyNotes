@@ -1,0 +1,8 @@
+Great Article about hoisting in js
+by 
+Elizabeth Mabishi
+(@emabishi)
+January 18, 2017
+25 Comments
+
+https://scotch.io/tutorials/understanding-hoisting-in-javascript
