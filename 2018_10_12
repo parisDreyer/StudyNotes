@@ -1,0 +1,4 @@
+disable excessive console logs in xcode
+xcode default logs os log statements
+    here is an explanation about how to fix that:
+        https://stackoverflow.com/questions/37930506/xcode-8-console-garbage
