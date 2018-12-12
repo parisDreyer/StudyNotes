@@ -1,0 +1,28 @@
+
+
+React tracksViewChanges   Flag
+
+-- Tells react components when to rerender
+
+https://stackoverflow.com/questions/40079859/how-can-i-keep-track-of-changes-made-in-redux-store
+
+
+https://github.com/react-native-community/react-native-maps/issues/2507
+state = {
+    tracksViewChanges: false,
+  }
+
+render() {
+   return (
+   ...
+   <MapView.Marker
+        tracksViewChanges={this.state.tracksViewChanges}
+        zIndex={9}
+        coordinate={{
+        longitude: location.coordinates[0]
+        latitude: location.coordinates[1],
+        }}
+        centerOffset={{ x: 0, y: -20 }}
+        onPress={handlePress}
+        title={title}
+   >
