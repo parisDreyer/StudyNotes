@@ -26,3 +26,18 @@ render() {
         onPress={handlePress}
         title={title}
    >
+
+
+
+
+
+
+
+
+Potential way to render react markers with nested components located on same point
+https://github.com/react-native-community/react-native-maps/issues/423
+
+
+
+notes on some bugs in react native:
+https://codeburst.io/4-tips-for-using-the-google-maps-api-with-react-native-46d8fa863eba
