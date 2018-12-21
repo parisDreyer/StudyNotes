@@ -1,0 +1,12 @@
+notes on code architecture
+https://dev.to/aershov24/9-software-architecture-interview-questions-and-answers-31e7
+
+
+nb: 
+modularity improves compile time when you separate a codebase into standalone modules that are called with api requests.
+This modularity has lasting benefits for writing cleaner code faster as a team of developers.
+
+
+Good intro to Django on youtube
+https://www.youtube.com/watch?v=D6esTdOLXh4
+
