@@ -36,3 +36,195 @@ how to merge and sort two unordered lists.
  Step-4: 1hr technical interview. Explain project, number to word program, 
  Step-5: 1hr technical interview. Difference between Java and python which one you would use in which situation. what happens after you type url in the browser. Interviewer seemed too interested in my capstone project ad he spent 40 mins discussing its every detail.
  Step-6: Recruiter got back to me after 2 office days and offered a job.
+
+ 1. Determine whether invalid {}, [], () exists in a string
+ 2. Three buttons, one for coke, one for pepsi and one for randomly selection. All of them are connected to the wrong one (pepsi botton connects to coke etc. ). How do you figure out which button is which in three steps.
+
+
+2 telephonic round + onsite interview- Asked about Search engine, Indexing-cursor- temp table sql question, Write program on notepad, some randon array given- to implement tree search- onsite interview for 4 hours...basic one
+
+How many different display declarations can you name?
+
+dynamic programming question: maximum subarray
+
+1. Maximum subarray problem
+ 2. Problem similar to Dutch National Flags
+ 3. Another to find a number that appears exactly once in an array
+
+
+ 1. Maximum subarray problem
+ 2. Problem similar to Dutch National Flags
+ 3. Another to find a number that appears exactly once in an array
+
+ Interviewer will ask you about the projects that you worked on and you have to code 2-3 programs and debug php code
+ 
+
+0 Answers
+substring search.
+
+0 Answers
+rearrange positives and negatives in an array
+
+Find the cross product of 3 lists of strings. 
+ Dutch flag problem.
+
+ An array has negative and positive numbers. Separate the numbers such that negative numbers are at the beginning and positive numbers at the end without changing the order. You cannot sort it.
+ Explain with O(1) space
+
+ Two rounds of code submission and one live-coding. Submit code for favorite project, code a particular problem. Code live for a given problem. Overall experience was good. Coding was easy,. Knowledge of data structures, implementations of algorithms etc helps plus experience in solving problems.
+
+Interview Questions
+Separate negative and positives in an array in O(n) time and O(1) space
+
+I solved both the questions really fast and in the best running time , even the interviewer was very happy and even asked me - how would you do it in inefficient way.
+ After two days recruiter calls me and tells me that they will let me know the decision in couple of days.And after couple of days i received a rejection mail. I was really surprised to get a rejection and still can`t figure out the reason for the rejection.
+
+Interview Questions
+Q1) Separate the positive and negative numbers while maintaining the order.
+ Q2) How to find whether string is sub string or not.
+
+ coding challenge : generating all combinations of array of strings
+ technical phone interview: reading php snippet of code and predicting the output, valid parathesis from leetcode.
+
+ General questions like "talk about a project that showcases your coding ability", "talk about a project where you worked with a team"
+
+0 Answers
+Print out all combinations from an array or arrays.
+ 
+ Example:
+ Input: [ [ a, b ], [ c, d, e ], [ f, g ] ]
+ Output:
+ acf
+ acg
+ bcf
+ bcg
+ ...
+ aeg
+
+0 Answers
+Given an array of integers (positive and negative), sort so all negative numbers are on the left, and positive are on the right while retaining their original order.
+ 
+ Example:
+ Input: [-2, 4, -19, 4, 0]
+ Output: [-2, -19, 0, 4, 4]
+
+3 Answers
+Given a string, return a boolean value if the strings contains matching brackets
+ 
+ Example:
+ Input: "This is [a valid] string"
+ Output: True
+ 
+ Input: "This is an [invalid string"
+ Output: False
+
+ Simple SQL queries, basic TCP/IP questions, programming questions with strings and arrays, going through my resume, and behavioral questions such as what made you apply to Wayfair? What makes you a good fit? etc
+
+ Find the longest palindromic text embedded anywhere within a given string.
+ 
+ Examples:
+ 
+ mqsvrtrvs - software should return string svrtrvs.
+ abshqvvqh - should return hqvvqh
+ 
+ I had approximately 30 minutes to develop software that would find and display the longest palindromic sequence.
+
+ 1) Difference between stored procedures and Functions
+ 2) Whether they support multiple row output
+ 3)What is a temp var and a temp table
+ 4) Where are they stored
+ 5) Explain MVC
+ 6) Asked if i knew anything about SQL tuning or DB tuning
+
+
+ 4 interviews each 1-hour long and 2 small interviews with the HR. The ones with HR were more of an information session and not an interview.
+ Most of the interviewers were friendly.
+ I was asked these questions
+ 1) HTML code to make a table and display some date (through binding) in it.
+ 2) Server side(Web server and DB server) troubleshooting scenario questions.
+ 3) Write a function to print Fibonacci sequence for a given number
+ 4) Assume you have a binary number 00110010, you apply some function on it and the number changes to some random number 10100011. Write a function to determine which numbers flipped from 0 to 1 and which bits flipped from 1 to 0. (You will have to write 2 different functions for 0 to 1 and 1 to 0).
+ 5) Write a function to pad a given number with preceding zeros to make it a number of length 9
+ 6) Explain SQL Injection
+ 7) Explain Cross site scripting
+ 8) Explain indexing and pros and cons and other details
+ 9) Write a program to convert a given number from 1 to 999 into words, like for 532 output should be Five hundred and Thirty two. Follow up question- change the program so that it supports conversion till a huge number like 1 billion. What will you do to optimize it. 
+ 10) Logical puzzle- 4 persons and a bridge, cross with a torch. You can google this puzzle.
+ 11) Some Database design questions. Given a webpage with certain fields, how will you design you DB.
+ 12) Logical puzzle- 2 eggs, 15 turns, 100 storey building. Determine the floor when the egg would break.
+ 13) What are abstract classes, how are they different from regular classes.
+ 14) Explain RESTful concept.
+ 15) Web services difference from REST. 
+ 16) When would you use webservice and when would you use a library file?
+ 
+ Assume you have a binary number 00110010, you apply some function on it and the number changes to some random number 10100011. Write a function to determine which numbers flipped from 0 to 1 and which bits flipped from 1 to 0. (You will have to write 2 different functions for 0 to 1 and 1 to 0).
+
+ Convert word to number (e.g one million one hundred thousand two ninety eight to the integer), How tinyURL works. Second interview with two other engineers (they looked much less experienced) - Order,Product sql queries, write class OOP to solve dvd renting library. 
+ Given objects like {x,width,id} like {0,5,3}, {5,3,8},{7,2,2}, {9,4,4} etc, find the object that is continous, in the sense, [0+5] gives the next object's x. [5+3] is not equal to the next object's x which is 7. so the continous segment comprises of {0,5,3} and {5,3,8}. the next continous segment is {7,2,2} and {9,4,4} as 7+2 gives 9. These objects are not sorted and given randomly unlike the above example. The problem is to find the continuous segment given an id of an object.
+
+Problems were of algorithms(language of choice), design patterns(PHP), debugging(SQL). Each round had a panel of 2 interviewers
+ This was followed by an onsite with 4 rounds involving 2 technical. Technical Questions centered around System Design, Object Oriented Design, Database Design and SQL Queries.
+ The final round was with the Director of the division and was more about my experience and what I was looking for and me asking him questions in return
+
+
+decision tree, machine learning search algorithms
+
+Lots of questions about SQL and some algorithm implementations (fibonacci number generator, in-place merge sort)
+
+explain floats/puesdo elements
+
+ Your most recent project, description and what you did, I recommend you prepare every single detail of your project.
+ 
+ 2. This is a very database heavy position, so refresh your database fundamentals, like difference between inner join and outer join. You will be design a database with the example from the interviewers. 
+ 3. How do you understand MVC? Pros and Cons? 
+ 4. What is the process when you type in wayfair.com?
+ 5. Given a website,which is frequently visited by people around the world, causes system failure due to the heavy traffic, how do you solve it? I said use some cache technology and add load balancing device. But I don't know what exactly the cache tech will be. 
+ 
+ 2nd Round:
+ 60 mins non-stop talk .
+ 1. Your experience.
+ 2. Multi-thread programming used in SQL. 1 million users try to visit wayfair.com, how can you fulfill their requests in time? Describe it.
+ 3. Familiar with XML? XSD? Describe it.
+ 
+ 3rd Round:
+ Programming tests:
+ 1. Bank Check Problem(Convert numeric values into String representation)
+ 2. Recursion problem: that I did not finish it as i may fail at certain case, but I have no time left. Suggestion: Spit out your thoughts to earn your credits if you cannot complete it ontime.
+
+
+They focused on whether you have a better understanding of certain fields of knowledge rather than your potential or desire to learn. But at least I know where I needs to be improved. In a nutshell, positive experience. If you can answer all questions above, you will nail it.
+
+print matrix multiplication table with good formatting, actors/movies sql table, bit.ly example, design a car parking lot.
+
+Internet security attacks, how to convert a number into a string (check writing question), SQL
+
+Given an array of duplicate elements, remove duplicates, maintain order of elements. Design system for most shared stories on Facebook and design queries to get top 5 most shared stories in the last 5 minutes, Design ER diagrams for a Parking lot and design queries.
+ Randomly Pick n elements from a given array of m elements. What happens when you type www.google.com
+
+1 Answer
+1. Given an array of duplicate elements, remove duplicates, maintain order of elements.
+
+0 Answers
+2. Design system for most shared stories on Facebook and design queries to get top 5 most shared stories in the last 5 minutes
+
+0 Answers
+3. Design ER diagrams for a Parking lot and design queries.
+
+0 Answers
+4. Randomly Pick n elements from a given array of m elements.
+
+Mostly SQL question (queries, joins, indexes, etc), binary tree, enterprise architect and some basic Java questions.
+
+Recommend to not go over the top on your interview. Make sure the guy on the other side won't be threatened by your skills. Try not to excel, keep simple it and only reply to what you are asked for.
+
+Interview Questions
+What is a primary key and what is used for?
+
+0 Answers
+What's the difference between Public, Protected and Private access modifiers?
+
+0 Answers
+What is a database temporary table and what is used for?
+
+There are some general software development questions relevant to the mobile platform such as algorithm, OOP related, how you’d design and architect a mobile app given some hypothetical scenarios. 
+ You’d also be asked to work on a starter project and finish it. The questions and sample projects are fairly geared toward the level of proficiency you’re applying for.
