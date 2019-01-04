@@ -1,0 +1,45 @@
+Stuff to think about tonight:
+____________________________________
+
+Build a function that takes in a Binary tree and have it output a string. Build a second function that takes in a string and builds a binary tree.
+
+
+____________________________________
+LeetCode – H-Index (Java)
+ 
+Given an array of citations (each citation is a non-negative integer) of a researcher, write a function to compute the researcher's h-index. A scientist has index h if h of his/her N papers have at least h citations each, and the other N − h papers have no more than h citations each.
+
+For example, given citations = [3, 0, 6, 1, 5], which means the researcher has 5 papers in total and each of them had received 3, 0, 6, 1, 5 citations respectively. Since the researcher has 3 papers with at least 3 citations each and the remaining two with no more than 3 citations each, his h-index is 3.
+// Java
+public int hIndex(int[] citations) {
+    Arrays.sort(citations);
+ 
+    int result = 0;    
+    for(int i=0; i<citations.length; i++){
+        int smaller = Math.min(citations[i], citations.length-i);
+        result = Math.max(result, smaller);
+    }
+ 
+    return result;
+}
+
+____________________________________
+
+-Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.  
+
+-Buy and Sell Stock  
+
+
+____________________________________
+
+This problem was asked by Jane Street.
+
+Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
+
+There are no transaction costs and you can trade fractional quantities.
+
+____________________________________
+
+
+
+
