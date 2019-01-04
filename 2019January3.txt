@@ -50,7 +50,7 @@ ____________________________________
 
 January 4 2019 Update:
 
-Tips for solving coding problems
+Tips for inductive approach to solving coding problems
 https://www.youtube.com/watch?v=WUIZBnfYxSA
 1. take your time
 2. understand everything that needs to be done to solve the problem
