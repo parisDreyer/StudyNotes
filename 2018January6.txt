@@ -1,2 +1,14 @@
+Wordpress Notes
+
+
 free Wordpress Domain for my dad's profile site
 geoffdreyer.wordpress.com
+
+- to disable comments for a post -- in the site editor go to settings:Discussion:<bool>AllowCommentsForFuturePosts
+and adjust AllowCommentsForFuturePosts to false
+The next article you post will have comments disabled. Then you can set it back to true to re-enable comments for subsequent posts.
+
+
+
+important repo for checking work on ml
+https://github.com/atinesh-s/Coursera-Machine-Learning-Stanford/
