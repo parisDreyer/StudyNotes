@@ -2,3 +2,10 @@ coding is about algorithms
 
 think about what you are making before you think about how to make it
 
+
+_________________________________
+Scaling ui to screen size, Unity:
+https://youtu.be/X4AdT5cKmZQ
+https://youtu.be/iPiqYBMKrLs
+
+Scaling game objects to screen size, unity:
