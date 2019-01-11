@@ -29,3 +29,19 @@ Close
 
 8. What are the next steps in the process?
     - gives you a sense for whether you passed
+
+
+
+Awesome Coding Language
+Prolog
+https://en.wikipedia.org/wiki/Prolog
+~20 mins in
+https://youtu.be/cgVVZMfLjEI
+
+
+Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers
+https://youtu.be/ZsHMHukIlJY
+- use consistant indentation that everyone can follow
+- minimize code bloat
+- keep max line length at 80
+- keep method signatures on one line with maximum length 80
