@@ -45,3 +45,11 @@ https://youtu.be/ZsHMHukIlJY
 - minimize code bloat
 - keep max line length at 80
 - keep method signatures on one line with maximum length 80
+
+
+Resume Suggestions:
+https://youtu.be/62tsiY5j4_0
+- if you don't have coding work experience,
+    just list apps you've done on your resume and talk about
+    the details of the code used for each app,
+    also talk about how you felt working on the app
