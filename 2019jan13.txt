@@ -1,0 +1,7 @@
+good though experiment:
+
+How to detect if someone is using a bot that repeatedly makes requests (over 100,000) through
+different virtual private networks (vpns) and ip addresses to watch Youtube videos
+    -this has been done by youtube channel owners to raise the number of views (and thus commercial value)
+    of their channels!
+    
