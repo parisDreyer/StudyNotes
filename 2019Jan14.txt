@@ -1,0 +1,176 @@
+System Design
+Vertical Scaling - add more memory, cpu, harddrive to existing host
+Horizontal Scaling - add another host
+    - Horizontal is cheaper but adds distributed system challenges
+
+
+CAP theorem
+-Consistency
+    - read has most recent write
+-Availability
+    - you will get a response, might not be most recent write
+-Partion Tolerance
+    - between two nodes you might be dropping network packets
+
+ACID vs BASE
+    Acid:
+    Base:
+
+Partitioning / Sharding Data
+    - consistent hashing
+
+Optimistic Vs Pessimistic Locking
+
+Strong Vs Eventual Consistency
+    strong - reads always see latest write
+    eventual - reads eventually see some write
+
+SQL
+    - more consistend
+NoSQL
+    - scales better, has higher availability, but less consistent
+    -document based nosql
+    -graph based nosql
+
+Caching
+    - used to speed up a request
+    - every node does its own caching
+
+DataCenters, Racks, Hosts
+    - datacenters have racks, racks have hosts
+    - latency between talking cross-racks or cross-hosts
+    - cpu, memory, hard-drive, network bandwidth
+        - all limited, have to work around hardware latencies
+    - random vs sequential read/write on disk
+
+
+http vs http2 vs websockets
+    http: request reply architecture between client and server
+    http2: multiple request per single connection
+    websocket: fully bidirectional connection between client and server
+
+TCP/IP model
+
+IPV4 vs IPV6
+
+TCP vs UDP
+    tcp: email, reliable but slow
+    udp: streaming, unreliable but fast
+
+DNS lookup
+
+HTTPs & TLS
+    tls: transport layer security
+        - secures communication between client and server
+            - in terms of privacy and data security
+
+Public Key infrastructure & Certificate of Authority
+
+Symmetric vs Asymmetric encryption
+    assymetric: computationaly more expensive (public private key encryption)
+    symmetric: aees
+
+Load Balancer -> L4 vs L7
+    - round robin basis or other
+    - L4 counts in destination and addresses
+    - L7 uses http uri to do load balancing (more commonly used)
+
+CDN & Edge
+    cdn: content delivery network
+    edge: processing close to end user
+            - dedicated network from edge to data center
+
+Bloom Filters & Count-min Sketch
+    Bloom Figures: decide if element is member of set or not
+        - has false positive bet never false negative
+    Count-min Sketch: counts frequency of events
+
+Paxos Consensus Over distributed Hosts
+    -e.g. leader election
+
+Design Patterns & Object oriented Design
+    Design Patterns:factory methods, singletons
+    oop: abstractions, inheritence
+
+Virtual Machines & Containers
+    container: application and dependencies in isolated environment
+
+Publisher-Subscriber, Queue
+    - Customer facing requests should not be directly exposed to
+        a publisher-subscriber system
+Map Reduce
+    - Distributed and parallel processing of big data
+    - Map is sifting and sorting the data
+    - reduce is summarizing the data
+
+Multi-Threading, Concurrency, Locks, Synchronization, CAS
+
+
+
+++++
+
+
+Cassandra
+    - wide column highly scalable database
+    - time series data
+    - eventual and strong consistency
+    - consistent hashing to shard data
+    - gossiping to keep nodes informed about structure
+
+MONGOdb / CouchBase
+    - ACID properties
+    - Scales well
+
+MYsql
+    - master - slave architecture
+    - ACID Architecture
+    - scales well
+
+Memcached
+    - distributed cache
+    - fast key-value storage
+
+Redis
+    - distributed cache
+    - key-value storage
+    - can be set up as a cluster
+    - flush data on harddrive
+
+A note on distributed cache systems:
+    - distributed cache systems should never be the single source of truth
+    - limited amount of data, limited by amount of memory on host
+
+Zookeeper
+    - centralized configuration management tool
+    - leader election, distributed locking
+    - scales well for reads but not for writes
+    - keeps all data in memory but can't store much data in zookeeper
+    - good for small amount of data held in memory
+
+Kafka
+    - fault tolerant highly available queue
+    - uses publisher subscriber
+    - good for streaming
+    - delivers message once
+        - keeps messages in partition on topic until ready to send
+
+NGINX, HAProxy
+    - efficient load balancer
+    - manages 100000s of connections from client from single instance
+
+Solr, Elastic Search
+    - source platform
+    - full text search
+
+Blobstore like Amargon 53
+    - good for big picture file hosting
+
+Docker
+    - cloud storage container system
+    Tools to manage
+        - Kubernetes
+        - mesos
+
+Hadoop / Spark
+    - Map-Reduce parallel processing of data
+    - HDFS
