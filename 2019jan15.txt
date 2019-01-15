@@ -1,0 +1,65 @@
+Bitwise operations:
+
+converts numbers to binary then performs operations on the numbers
+
+OR
+if(0 and 1 in the same place, then 1. if 1 and 1 then 1. if 0 and 0, then 0)
+
+
+// 1 = 00000001
+// 2 = 00000010
+// 3 = 00000011
+console.log(1 | 2); // bitwise OR => 3
+
+console.log(1 & 2); // bitwise AND => 0
+// because [
+              [001]
+            + [010]
+            = 0&0=0,0&1=0,1&0=0
+            = [000]
+        ]
+
+
+
+
+// C Program to add two numbers 
+// without using arithmetic operator 
+#include<stdio.h> 
+
+  
+
+int Add(int x, int y) 
+{ 
+
+    // Iterate till there is no carry   
+
+    while (y != 0) 
+
+    { 
+
+        // carry now contains common  
+
+        //set bits of x and y 
+
+        int carry = x & y;   
+
+  
+
+        // Sum of bits of x and y where at  
+
+        //least one of the bits is not set 
+
+        x = x ^ y;  
+
+  
+
+        // Carry is shifted by one so that adding 
+
+        // it to x gives the required sum 
+
+        y = carry << 1; 
+
+    } 
+
+    return x; 
+} 
