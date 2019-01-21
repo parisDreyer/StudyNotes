@@ -35,3 +35,14 @@ function merge(a, b){
     });
     return a;
 }
+
+
+// additionally you could improve on it if you know the full
+// set of x coordinates in the grid by having arrays of size n
+// as the values in the hash set with true or false values
+// at the indices corresponding to the whether or not a path exists
+// at a given index
+
+
+// ^ the use case for this data structure is when you want to efficiently
+// look up coordinates for a given path in reference to other objects
