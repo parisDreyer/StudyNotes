@@ -22,3 +22,9 @@ tracking and perception. Applications include navigating
 through indoors spaces, measuring your environment, playing 
 3D games around your home, and being able to walk through 
 immersive experiences. Come join us on this journey.
+
+
+
+
+//? and ! in swift for unwrapping variable references
+https://www.kaplankomputing.com/blog/tutorials/swift-ios-vs-question-mark-vs-exclamation-point/
