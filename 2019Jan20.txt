@@ -28,3 +28,7 @@ immersive experiences. Come join us on this journey.
 
 //? and ! in swift for unwrapping variable references
 https://www.kaplankomputing.com/blog/tutorials/swift-ios-vs-question-mark-vs-exclamation-point/
+
+
+quick start app ios without storyboard
+https://medium.com/ios-os-x-development/ios-start-an-app-without-storyboard-5f57e3251a25

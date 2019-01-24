@@ -1,0 +1,60 @@
+using SQLite in swift XCode
+
+
+https://stackoverflow.com/questions/24102775/accessing-an-sqlite-database-in-swift
+https://www.simplifiedios.net/swift-sqlite-tutorial/
+
+
+podcasts about ios development
+https://medium.com/apps-top/best-ios-development-podcasts-for-app-developers-348c39ef585
+
+
+// property observer, swift
+
+
+var flipCount = 0 {
+    didSet {
+        flipCountLabel.text = "Flips: \(flipCount)"
+    }
+}
+
+// the didSet procedure is called when flipCount changes
+
+
+stuff to learn this week:
+
+Courses:
+
+iTunes U Stanford Course on Swift (Paul Hegarty) - FREE
+https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316
+
+Treehouse
+https://teamtreehouse.com/learn-swift
+
+Udacity
+https://www.udacity.com/course/ios-developer-nanodegree--nd003
+
+Online Tutorials:
+
+Ray Wenderlich online tutorials
+https://www.raywenderlich.com/ios
+
+Apple Developer Swift Official Docs
+https://developer.apple.com/swift/
+
+Swift Tour
+https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html
+
+Books:
+
+Apple’s Book on Swift Programming
+https://itunes.apple.com/us/book/the-swift-programming-language-swift-4-2/id881256329?mt=11
+
+iOS Programming: The Big Nerd Ranch Guide
+https://www.amazon.com/iOS-Programming-Ranch-Guide-Guides-ebook/dp/B019HARRT0/ref=sr_1_1?ie=UTF8&qid=1547139281&sr=8-1&keywords=ios+programming+swift+big+nerd+ranch
+
+Coding iPhone Apps for Kids
+** I wrote this book - called “for Kids” but great for Adults too!
+https://www.amazon.com/Coding-iPhone-Apps-Kids-Introduction/dp/1593277563/ref=sr_1_1?ie=UTF8&qid=1518273235&sr=8-1&keywords=coding+iphone+apps+for+kids
+
+
