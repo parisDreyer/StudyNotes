@@ -48,13 +48,13 @@ https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html
 Books:
 
 Apple’s Book on Swift Programming
-https://itunes.apple.com/us/book/the-swift-programming-language-swift-4-2/id881256329?mt=11
+https://itunes.apple.com/us/book/the-swift-programming-language-swift-4-2/id881256329?mt=11 // check
 
 iOS Programming: The Big Nerd Ranch Guide
-https://www.amazon.com/iOS-Programming-Ranch-Guide-Guides-ebook/dp/B019HARRT0/ref=sr_1_1?ie=UTF8&qid=1547139281&sr=8-1&keywords=ios+programming+swift+big+nerd+ranch
+https://www.amazon.com/iOS-Programming-Ranch-Guide-Guides-ebook/dp/B019HARRT0/ref=sr_1_1?ie=UTF8&qid=1547139281&sr=8-1&keywords=ios+programming+swift+big+nerd+ranch 
 
 Coding iPhone Apps for Kids
-** I wrote this book - called “for Kids” but great for Adults too!
-https://www.amazon.com/Coding-iPhone-Apps-Kids-Introduction/dp/1593277563/ref=sr_1_1?ie=UTF8&qid=1518273235&sr=8-1&keywords=coding+iphone+apps+for+kids
+** Gloria Winquest, an iOS Lead Developer at Wayfair wrote this book - called “for Kids” but great for Adults too!
+https://www.amazon.com/Coding-iPhone-Apps-Kids-Introduction/dp/1593277563/ref=sr_1_1?ie=UTF8&qid=1518273235&sr=8-1&keywords=coding+iphone+apps+for+kids // check
 
 
