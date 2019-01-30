@@ -1,0 +1,7 @@
+
+good qr code writer
+https://medium.com/itch-design-no/how-to-generate-qr-codes-in-ios-f24d49da6400
+
+
+qr code reader
+https://www.appcoda.com/qr-code-ios-programming-tutorial/
