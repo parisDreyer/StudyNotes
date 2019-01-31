@@ -1,0 +1,4 @@
+Flying to SFO to Boston today
+
+good article on hashes in Swift
+https://medium.com/journey-of-one-thousand-apps/building-a-hash-data-structure-in-swift-e9b2733d9e20
